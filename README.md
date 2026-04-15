@@ -1,86 +1,28 @@
-# HackToFuture 4.0 — Template
+The Specter Sentinals-I01
+PashuMitra
 
-Welcome to your official HackToFuture 4 repository.
+Problem
+Farmers often miss the 12–18 hour heat detection window, resulting in low conception rates (30–35%). Existing solutions require internet, lack local language support, and are not user-friendly for rural farmers.
 
-This repository template will be used for development, tracking progress, and final submission of your project. Ensure that all work is committed here within the allowed hackathon duration.
+Solution
+PashuMitra is an offline AI-powered mobile application that helps farmers detect heat cycles and health risks using image analysis and symptom-based inputs.
 
----
+Features
+Image-based estrus detection
+9-question symptom analysis
+Hybrid AI (MobileNetV2 + XGBoost + Rule Engine)
+Offline-first functionality
+Auto-sync when internet is available
+Multi-language support (Kannada, Hindi, Tamil, Telugu, English)
+Multi-species support (cow, buffalo, goat, sheep)
+Heat prediction output (Likely Heat, Monitor Closely, Healthy)
+AI technician booking and scheduling
+Streamlit dashboard for analytics and monitoring
+Local storage using SQLite
 
-### Instructions for the teams:
-
-- Fork the Repository and name the forked repo in this convention: hacktofuture4-team_id (for eg: hacktofuture4-A01)
-
----
-
-## Rules
-
-- Work must be done ONLY in the forked repository
-- Only Four Contributors are allowed.
-- After 36 hours, Please make PR to the Main Repository. A Form will be sent to fill the required information.
-- Do not copy code from other teams
-- All commits must be from individual GitHub accounts
-- Please provide meaningful commits for tracking.
-- Do not share your repository with other teams
-- Final submission must be pushed before the deadline
-- Any violation may lead to disqualification
-
----
-
-# The Final README Template 
-
-## Problem Statement / Idea
-
-Clearly describe the problem you are solving.
-
-- What is the problem?
-- Why is it important?
-- Who are the target users?
-
----
-
-## Proposed Solution
-
-Explain your approach:
-
-- What are you building?
-- How does it solve the problem?
-- What makes your solution unique?
-
----
-
-## Features
-
-List the core features of your project:
-
-- Feature 1
-- Feature 2
-- Feature 3
-
----
-
-## Tech Stack
-
-Mention all technologies used:
-
-- Frontend:
-- Backend:
-- Database:
-- APIs / Services:
-- Tools / Libraries:
-
----
-
-## Project Setup Instructions
-
-Provide clear steps to run your project:
-
-```bash
-# Clone the repository
-git clone <repo-link>
-
-# Install dependencies
-...
-
-# Run the project
-...
-```
+Tech Stack
+Frontend: Flutter
+Backend: FastAPI
+Database: SQLite, PostgreSQL
+AI Models: MobileNetV2, XGBoost
+Tools: TensorFlow, OpenCV, Pillow, Streamlit
